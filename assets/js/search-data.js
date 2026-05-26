@@ -7,28 +7,28 @@ ninja.data = [{
     title: "Home",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-research",
           title: "Research",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/research/";
+            window.location.href = "/research/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-updates",
           title: "Updates",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/updates/index.html";
+            window.location.href = "/updates/index.html";
           },
         },{
       id: 'light-theme',
