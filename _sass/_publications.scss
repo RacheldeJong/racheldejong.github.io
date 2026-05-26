@@ -127,58 +127,58 @@
         }
       }
 
-.talks {
-  margin-top: 1rem;
-  padding-left: 0;
+      .talks {
+        margin-top: 1rem;
+        padding-left: 0;
 
-  li {
-    list-style: none;
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--global-divider-color);
-  }
+        li {
+          list-style: none;
+          padding: 1rem 0;
+          border-bottom: 1px solid var(--global-divider-color);
+        }
 
-  li:last-child {
-    border-bottom: none;
-  }
+        li:last-child {
+          border-bottom: none;
+        }
 
-  .talk-title {
-    display: inline;
-    font-weight: 700;
-    margin-right: 0.5rem;
-  }
+        .talk-title {
+          display: inline;
+          font-weight: 700;
+          margin-right: 0.5rem;
+        }
 
-  .talk-description {
-    color: var(--global-text-color-light);
-    display: inline;
-    line-height: 1.4;
-  }
+        .talk-description {
+          color: var(--global-text-color-light);
+          display: inline;
+          line-height: 1.4;
+        }
 
-  .talk-links {
-    display: inline;
-    margin-left: 0.75rem;
-  }
+        .talk-links {
+          display: inline;
+          margin-left: 0.75rem;
+        }
 
-  .talk-links a {
-    display: inline;
-    margin-right: 0.75rem;
-    margin-bottom: 0;
-    color: var(--global-theme-color);
-    font-weight: 600;
-    text-decoration: none;
-    background: none;
-    border: none;
-    padding: 0;
-  }
+        .talk-links a {
+          display: inline;
+          margin-right: 0.75rem;
+          margin-bottom: 0;
+          color: var(--global-theme-color);
+          font-weight: 600;
+          text-decoration: none;
+          background: none;
+          border: none;
+          padding: 0;
+        }
 
-  .talk-links a:hover {
-    text-decoration: underline;
-  }
-}
+        .talk-links a:hover {
+          text-decoration: underline;
+        }
+      }
 
-.talks-note {
-  margin-bottom: 0.75rem;
-  color: var(--global-text-color-light);
-}
+      .talks-note {
+        margin-bottom: 0.75rem;
+        color: var(--global-text-color-light);
+      }
 
       .badges {
         padding-bottom: 0.5rem;

@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description:
 nav: true
 nav_order: 3
 ---
@@ -12,6 +12,7 @@ nav_order: 3
 <!-- Bibsearch Feature -->
 
 <!-- {% include bib_search.liquid %} -->
+
 This page contains my research outputs, including <a href="#publications">**publications**</a>, open-source <a href="#github-repositories">**code repositories**</a>, and slides or posters from academic <a href="#conferences-and-talks">**conferences and talks**</a>.
 
 # Publications
