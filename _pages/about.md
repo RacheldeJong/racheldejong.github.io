@@ -24,10 +24,10 @@ latest_posts:
   limit: 10 # leave blank to include all the blog posts
 ---
 
-Hi! I am a PhD candidiate in computer science in the [Network Science Group](https://www.networkscience.nl/) at [Leiden Institute of Advanced Computer Science](https://liacs.leidenuniv.nl/), Leiden university. I am interested in computations and algorithms in network science.
+Hi! I am a PhD candidiate in computer science in the [Network Science Group](https://www.networkscience.nl/) at [Leiden Institute of Advanced Computer Science](https://liacs.leidenuniv.nl/), Leiden university. I am interested in the computational aspects and algorithms in network science.
 
 Currently I work on the [ANO-NET](https://www.universiteitleiden.nl/en/research/research-projects/science/liacs-ano-net-anonymity-in-complex-networks) project in collaboration with statistics Netherlands (CBS).
-Our goal is to quantify the risk of re-identification in network datasets and design anonymization algorithms which maintain the structural properties of the network and performance on network analysis tasks, balancing the trade-off between privacy and data utility.
+Our goal is to quantify the risk of re-identification in network datasets and design anonymization algorithms that balance utility and privacy.
 I am also affiliated to the [PLANET-NL](https://www.planetnl.org/) project (formerly [POPNET](https://www.popnet.io/)).
 
 Some of my hobbies are hiking, making jigsaw puzzles, crochet and knitting. I also like cats.
