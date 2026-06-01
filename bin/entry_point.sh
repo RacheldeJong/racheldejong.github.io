@@ -13,14 +13,22 @@ manage_gemfile_lock() {
             echo "Gemfile.lock is tracked by git, keeping it intact"
             git restore Gemfile.lock 2>/dev/null || true
         else
-            echo "Gemfile.lock is not tracked by git, removing it"
-            rm Gemfile.lock
+            echo "Gemfile.lock is not tracked by git, keeping it for local development"
         fi
+    fi
+}
+
+install_bundle_if_needed() {
+    bundle config set path 'vendor/bundle'
+    if ! bundle check >/dev/null 2>&1; then
+        echo "Bundle dependencies missing, installing..."
+        bundle install --jobs 4 --retry 3
     fi
 }
 
 start_jekyll() {
     manage_gemfile_lock
+    install_bundle_if_needed
     bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
 }
 

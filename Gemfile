@@ -20,8 +20,8 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-socials'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem 'jekyll-toc'
+    gem 'jekyll-terser'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
 
@@ -35,7 +35,7 @@ group :other_plugins do
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
-    gem 'terser'         # used by jekyll-terser
+    # gem 'terser'         # used by jekyll-terser (removed)
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end

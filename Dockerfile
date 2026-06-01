@@ -1,5 +1,8 @@
 FROM ruby:slim
-
+RUN bundle config set path vendor/bundle
+RUN bundle config set cache_all false
+USER root
+RUN gem install bundler
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
 # ARG GROUPID=901
