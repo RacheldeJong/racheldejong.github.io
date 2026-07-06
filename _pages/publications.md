@@ -55,8 +55,25 @@ This page contains my research outputs, including <a href="#publications">**publ
     </span>
   </li>
 </ul>
+
 ## Conference contributions
+
 <ul class="talks">
+  <li>
+    <span class="talk-title">Lightning talk:</span>
+    <span class="talk-description">Fuzzy k-anonymity in complex networks - Dutch Netsci, Leiden, The Netherlands, 2026. </span>
+    <span class="talk-links">
+      <a class="talk-link" href="{{ "/assets/pdf/slides-talks/2026-dutchnetsci.pdf" | relative_url }}" target="_blank" rel="noopener noreferrer"><strong>Slides</strong></a>
+    </span>
+  </li>
+    <li>
+    <span class="talk-title">Paper presentation:</span>
+    <span class="talk-description">The anonymization problem in complex networks - WAW, Toronto, Canada, 2026. </span>
+    <span class="talk-links">
+      <a class="talk-link" href="{{ "/assets/pdf/slides-talks/2026-waw.pdf" | relative_url }}" target="_blank" rel="noopener noreferrer"><strong>Slides</strong></a>
+      <a class="paper-link" href="https://doi.org/10.1007/978-3-032-27193-8_2" target="_blank" rel="noopener noreferrer"><strong>Paper</strong></a>
+    </span>
+  </li>
   <li>
     <span class="talk-title">Oral presentation:</span>
     <span class="talk-description">Anonymity and Disclosure Control for Network Data — 65th ISI World Statistics Congress, Den Haag, The Netherlands, 2025. </span>

@@ -15,8 +15,14 @@ em,
 div,
 li,
 span,
-strong {
+strong,
+b {
   color: var(--global-text-color);
+}
+
+strong,
+b {
+  font-weight: 700;
 }
 
 hr {
